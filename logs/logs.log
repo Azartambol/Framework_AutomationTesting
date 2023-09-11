@@ -1,0 +1,30 @@
+[INFO ] 2023-09-11 13:51:55.780 [main] MyStore - Browser Launched.........
+[INFO ] 2023-09-11 13:52:01.689 [main] MyStore - Webpage Opened..........
+[INFO ] 2023-09-11 13:52:01.725 [main] MyStore - ***************TestCase VerifyLogin Started*****************
+[INFO ] 2023-09-11 13:52:03.139 [main] MyStore - Clicked on Sign in link
+[INFO ] 2023-09-11 13:52:03.139 [main] MyStore - My Account Page is open
+[INFO ] 2023-09-11 13:52:04.901 [main] MyStore - Email and Pass entered and click on sign in
+[INFO ] 2023-09-11 13:52:04.992 [main] MyStore - Checking correct username is displaying or not
+[INFO ] 2023-09-11 13:52:06.835 [main] MyStore - Testcase VerifyLogin passed
+[INFO ] 2023-09-11 13:52:06.840 [main] MyStore - ***************TestCase VerifyLogin Ends*****************
+[INFO ] 2023-09-11 13:52:06.876 [main] MyStore - ***************TestCase Verify Sign out starts*****************
+[INFO ] 2023-09-11 13:52:07.808 [main] MyStore - Clicked on sign in link
+[INFO ] 2023-09-11 13:52:07.989 [main] MyStore - Entered email address
+[INFO ] 2023-09-11 13:52:08.146 [main] MyStore - Entered password
+[INFO ] 2023-09-11 13:52:09.236 [main] MyStore - Clicked on sign in link..
+[INFO ] 2023-09-11 13:52:10.597 [main] MyStore - Testcase VerifySignOut passed
+[INFO ] 2023-09-11 13:52:10.597 [main] MyStore - ***************TestCase Verify Sign out ends*****************
+[INFO ] 2023-09-11 13:52:11.079 [main] MyStore - Browser Closed
+[INFO ] 2023-09-11 13:52:12.915 [main] MyStore - Browser Launched.........
+[INFO ] 2023-09-11 13:52:19.027 [main] MyStore - Webpage Opened..........
+[INFO ] 2023-09-11 13:52:19.035 [main] MyStore - ***************TestCase Search Product started*****************
+[INFO ] 2023-09-11 13:52:20.240 [main] MyStore - Clicked on Sign in link
+[INFO ] 2023-09-11 13:52:20.240 [main] MyStore - My Account Page is open
+[INFO ] 2023-09-11 13:52:21.869 [main] MyStore - Email and Pass entered and click on sign in
+[INFO ] 2023-09-11 13:52:23.722 [main] MyStore - Product Search page open
+[INFO ] 2023-09-11 13:52:23.723 [main] MyStore - In Search box added search key and clicked search button
+[INFO ] 2023-09-11 13:52:23.794 [main] MyStore - In result page get name of the product which is diplayed 
+[INFO ] 2023-09-11 13:52:23.795 [main] MyStore - Verifying that correct Product is displaying after search
+[INFO ] 2023-09-11 13:52:23.795 [main] MyStore - Search Product testcase - Passed
+[INFO ] 2023-09-11 13:52:24.954 [main] MyStore - ***************TestCase Search Product ends*****************
+[INFO ] 2023-09-11 13:52:25.376 [main] MyStore - Browser Closed
