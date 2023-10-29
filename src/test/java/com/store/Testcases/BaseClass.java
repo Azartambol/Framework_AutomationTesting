@@ -18,6 +18,8 @@ import org.testng.annotations.BeforeClass;
 
 import com.strore.Utilities.ReadConfig;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class BaseClass {
 	ReadConfig rc=new ReadConfig();
 		String url=rc.getUrl();
@@ -31,17 +33,17 @@ public class BaseClass {
 	{
 		if(browser.toLowerCase().equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","./Driver/chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 	         driver=new ChromeDriver();
 		}
 		else if(browser.toLowerCase().equals("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver","./Driver/geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
 			 driver=new FirefoxDriver();
 		}
 		else if(browser.toLowerCase().equals("edge"))
 		{
-			System.setProperty("webdriver.edge.driver","./Driver/msedgedriver.exe");
+			WebDriverManager.edgedriver().setup();
 			 driver=new EdgeDriver();
 		}
 	driver.manage().window().maximize();
@@ -64,7 +66,7 @@ public class BaseClass {
 		FileUtils.copyFile(src, dest);
 	}
 	
-	@AfterClass
+  @AfterClass
      public void teardown()
    {
 		 driver.close();

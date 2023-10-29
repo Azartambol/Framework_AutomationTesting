@@ -13,7 +13,7 @@ import com.store.PageObject.SearchProduct;
 
 public class TC_ProductPageTest extends BaseClass {
 
-	@Test(enabled=true)
+	@Test
 	public void VerifySearchProduct() throws IOException
 	{
 		String searchKey = "T-shirts";
@@ -48,7 +48,7 @@ public class TC_ProductPageTest extends BaseClass {
 		ProductSearchDisplay resultPg = new ProductSearchDisplay(driver);
         String SearchResultProductname=resultPg.getSearchResultProductName();
         
-		logg.info("In result page get name of the product which is diplayed "); 
+		logg.info("In result page got name of the product which is displayed "); 
 
 		//Verify that correct Product is displaying after search
 		logg.info("Verifying that correct Product is displaying after search"); 
@@ -70,26 +70,26 @@ public class TC_ProductPageTest extends BaseClass {
 
 	}
 	
-	@Test(enabled=false)
+	@Test(priority=1)
 	public void VerifyBuyProduct() throws IOException
 	{
 
-		logg.info("\n***************TestCase Buy Product started*****************"); 
+		logg.info("***************TestCase Buy Product started*****************"); 
 
-		/*	driver.get(url);
-		logger.info("Url opened");*/
+
 
 		//Sign in 
 		IndexPage indexPg = new IndexPage(driver);
 		indexPg.Click();
-
+		logg.info("Clicked on Sign in link");
+		logg.info("My Account Page is open");
 
 		//Enter account details- email and password
 		Loginpage l=new Loginpage(driver); 
 		l.enterEmail(Email);
 		l.enterPassword(Pass);
 		l.signin();
-
+		logg.info("Email and Pass entered and click on sign in"); 
 		SearchProduct pg = new SearchProduct(driver);
 		pg.EnterDataInSearchBox("T-shirts");
 		
@@ -113,7 +113,7 @@ public class TC_ProductPageTest extends BaseClass {
 
 		Productpage prodPg = new Productpage(driver);
 		prodPg.setQuantity("2");
-		logg.info("quantity 2 entereed");
+		logg.info("quantity 2 entered");
 
 		prodPg.setSize("M");
 		logg.info("size M entered");
@@ -135,7 +135,7 @@ public class TC_ProductPageTest extends BaseClass {
 
 		com.store.PageObject.OrderShippingPage orderShippingPg = new com.store.PageObject.OrderShippingPage(driver);
 		orderShippingPg.selectTermsOfServices();
-		logg.info("selecged term of service check box");
+		logg.info("selected term of service check box");
 
 		orderShippingPg.cickOnProceedToCheckout();
 		logg.info("Clicked on proceed to checkout on order shipping page");
@@ -153,9 +153,9 @@ public class TC_ProductPageTest extends BaseClass {
 
 		String sucessMsg = orderConfirmPg.getOrderSucessMessage();
 
-		//	Assert.assertEquals(sucessMsg, "Your order on My Store is complete.");
-
-		if(sucessMsg.equals("Your order on My Store is complete."))
+           logg.info("Checked confirm order message");
+		
+		if(sucessMsg.equals("Your order on My Shop is complete."))
 		{
 			logg.info("VerifyBuyProduct - Passed"); 
 			Assert.assertTrue(true);

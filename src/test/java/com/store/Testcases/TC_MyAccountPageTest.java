@@ -117,9 +117,11 @@ public class TC_MyAccountPageTest extends BaseClass {
 
 		SearchProduct sp=new SearchProduct(driver);
 		sp.clickOnSignOut();
-
+		logg.info("Clicked on sign out link..");
+		
 		if(l.loginTitle().equals("Login - My Shop"))
 		{
+			logg.info("user signed out from application");
 			logg.info("Testcase VerifySignOut passed");
 			Assert.assertTrue(true);
 		}
