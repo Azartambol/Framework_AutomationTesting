@@ -8,11 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 public class OrderSummaryPage {
 	WebDriver driver;
 
-	//2. Create constructor
+
 	public OrderSummaryPage(WebDriver d)
 	{
 		this.driver = d;
-		PageFactory.initElements(driver, this);//driver that will be used to lookup the web element
+		PageFactory.initElements(driver, this);
 
 	}
 

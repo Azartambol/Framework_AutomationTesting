@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="76.647" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="83.675" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="webdriver.chrome.driver" value="C:\Users\DELL\.cache\selenium\chromedriver\win64\118.0.5993.70\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\DELL\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.2.v20221005-1040\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire10638932233798594822\surefirebooter-20231029182824037_3.jar C:\Users\DELL\AppData\Local\Temp\surefire10638932233798594822 2023-10-29T18-28-23_129-jvmRun1 surefire-20231029182824037_1tmp surefire_0-20231029182824037_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire4656813543075359160\surefirebooter-20231030103609386_3.jar C:\Users\DELL\AppData\Local\Temp\surefire4656813543075359160 2023-10-30T10-36-08_507-jvmRun1 surefire-20231030103609386_1tmp surefire_0-20231030103609386_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\DELL\Desktop\NewEverything\MyStore\target\test-classes;C:\Users\DELL\Desktop\NewEverything\MyStore\target\classes;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-java\4.11.0\selenium-java-4.11.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-api\4.11.0\selenium-api-4.11.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.11.0\selenium-chrome-driver-4.11.0.jar;C:\Users\DELL\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\DELL\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\DELL\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\DELL\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\DELL\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\DELL\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\DELL\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.11.0\selenium-chromium-driver-4.11.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-json\4.11.0\selenium-json-4.11.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.11.0\selenium-manager-4.11.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.11.0\selenium-devtools-v113-4.11.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.11.0\selenium-devtools-v114-4.11.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.11.0\selenium-devtools-v115-4.11.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.11.0\selenium-devtools-v85-4.11.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.11.0\selenium-edge-driver-4.11.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.11.0\selenium-firefox-driver-4.11.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-http\4.11.0\selenium-http-4.11.0.jar;C:\Users\DELL\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.11.0\selenium-ie-driver-4.11.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.11.0\selenium-remote-driver-4.11.0.jar;C:\Users\DELL\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\DELL\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\DELL\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\DELL\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\DELL\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\DELL\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.11.0\selenium-safari-driver-4.11.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-support\4.11.0\selenium-support-4.11.0.jar;C:\Users\DELL\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\DELL\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\DELL\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\DELL\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\DELL\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\DELL\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\DELL\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\DELL\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\DELL\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\DELL\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\DELL\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\DELL\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\DELL\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\DELL\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\DELL\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\DELL\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\DELL\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\DELL\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\DELL\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\DELL\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\DELL\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\DELL\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\DELL\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\DELL\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\DELL\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\DELL\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\DELL\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\DELL\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\DELL\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\DELL\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\DELL\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\DELL\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\DELL\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire10638932233798594822\surefirebooter-20231029182824037_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire4656813543075359160\surefirebooter-20231030103609386_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.2.1+1"/>
@@ -52,59 +52,59 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\DELL\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.2.v20221005-1040\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/DELL/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.2.v20221005-1040/jre/bin/server;C:/Users/DELL/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.2.v20221005-1040/jre/bin;G:\oracle\product\10.2.0\db_4\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;C:\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;C:\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_202\bin;;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Users\DELL\Desktop;;."/>
+    <property name="java.library.path" value="C:\Users\DELL\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.2.v20221005-1040\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/DELL/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.2.v20221005-1040/jre/bin/server;C:/Users/DELL/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.2.v20221005-1040/jre/bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Common Files\Oracle\Java\javapath;G:\oracle\product\10.2.0\db_4\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;C:\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;C:\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_202\bin;;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Users\DELL\Desktop;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
     <property name="java.vm.version" value="18.0.2.1+1"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="verifyLogin" classname="com.store.Testcases.TC_MyAccountPageTest" time="5.277">
-    <system-out><![CDATA[[INFO ] 2023-10-29 18:28:33.887 [main] MyStore - Browser Launched.........
-[INFO ] 2023-10-29 18:28:44.493 [main] MyStore - Webpage Opened..........
-[INFO ] 2023-10-29 18:28:44.523 [main] MyStore - ***************TestCase VerifyLogin Started*****************
-[INFO ] 2023-10-29 18:28:46.076 [main] MyStore - Clicked on Sign in link
-[INFO ] 2023-10-29 18:28:46.077 [main] MyStore - My Account Page is open
-[INFO ] 2023-10-29 18:28:48.279 [main] MyStore - Email and Pass entered and click on sign in
-[INFO ] 2023-10-29 18:28:48.345 [main] MyStore - Checking correct username is displaying or not
-[INFO ] 2023-10-29 18:28:49.707 [main] MyStore - Testcase VerifyLogin passed
-[INFO ] 2023-10-29 18:28:49.727 [main] MyStore - ***************TestCase VerifyLogin Ends*****************
+  <testcase name="verifyLogin" classname="com.store.Testcases.TC_MyAccountPageTest" time="7.472">
+    <system-out><![CDATA[[INFO ] 2023-10-30 10:36:19.058 [main] MyStore - Browser Launched.........
+[INFO ] 2023-10-30 10:36:25.280 [main] MyStore - Webpage Opened..........
+[INFO ] 2023-10-30 10:36:25.308 [main] MyStore - ***************TestCase VerifyLogin Started*****************
+[INFO ] 2023-10-30 10:36:26.775 [main] MyStore - Clicked on Sign in link
+[INFO ] 2023-10-30 10:36:26.776 [main] MyStore - My Account Page is open
+[INFO ] 2023-10-30 10:36:31.072 [main] MyStore - Email and Pass entered and click on sign in
+[INFO ] 2023-10-30 10:36:31.155 [main] MyStore - Checking correct username is displaying or not
+[INFO ] 2023-10-30 10:36:32.685 [main] MyStore - Testcase VerifyLogin passed
+[INFO ] 2023-10-30 10:36:32.694 [main] MyStore - ***************TestCase VerifyLogin Ends*****************
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Oct 29, 2023 6:28:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 10:36:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 118, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="VerifySignOut" classname="com.store.Testcases.TC_MyAccountPageTest" time="4.43">
-    <system-out><![CDATA[[INFO ] 2023-10-29 18:28:49.758 [main] MyStore - ***************TestCase Verify Sign out starts*****************
-[INFO ] 2023-10-29 18:28:51.237 [main] MyStore - Clicked on sign in link
-[INFO ] 2023-10-29 18:28:51.423 [main] MyStore - Entered email address
-[INFO ] 2023-10-29 18:28:51.587 [main] MyStore - Entered password
-[INFO ] 2023-10-29 18:28:52.777 [main] MyStore - Clicked on sign in link..
-[INFO ] 2023-10-29 18:28:54.227 [main] MyStore - Clicked on sign out link..
-[INFO ] 2023-10-29 18:28:54.248 [main] MyStore - user signed out from application
-[INFO ] 2023-10-29 18:28:54.249 [main] MyStore - Testcase VerifySignOut passed
-[INFO ] 2023-10-29 18:28:54.249 [main] MyStore - ***************TestCase Verify Sign out ends*****************
+  <testcase name="VerifySignOut" classname="com.store.Testcases.TC_MyAccountPageTest" time="3.344">
+    <system-out><![CDATA[[INFO ] 2023-10-30 10:36:32.736 [main] MyStore - ***************TestCase Verify Sign out starts*****************
+[INFO ] 2023-10-30 10:36:33.647 [main] MyStore - Clicked on sign in link
+[INFO ] 2023-10-30 10:36:33.810 [main] MyStore - Entered email address
+[INFO ] 2023-10-30 10:36:33.967 [main] MyStore - Entered password
+[INFO ] 2023-10-30 10:36:34.940 [main] MyStore - Clicked on sign in link..
+[INFO ] 2023-10-30 10:36:36.122 [main] MyStore - Clicked on sign out link..
+[INFO ] 2023-10-30 10:36:36.144 [main] MyStore - user signed out from application
+[INFO ] 2023-10-30 10:36:36.144 [main] MyStore - Testcase VerifySignOut passed
+[INFO ] 2023-10-30 10:36:36.144 [main] MyStore - ***************TestCase Verify Sign out ends*****************
 ]]></system-out>
   </testcase>
-  <testcase name="VerifySearchProduct" classname="com.store.Testcases.TC_ProductPageTest" time="6.758">
-    <system-out><![CDATA[[INFO ] 2023-10-29 18:28:54.909 [main] MyStore - Browser Closed
-[INFO ] 2023-10-29 18:28:56.793 [main] MyStore - Browser Launched.........
-[INFO ] 2023-10-29 18:29:05.507 [main] MyStore - Webpage Opened..........
-[INFO ] 2023-10-29 18:29:05.508 [main] MyStore - ***************TestCase Search Product started*****************
-[INFO ] 2023-10-29 18:29:07.002 [main] MyStore - Clicked on Sign in link
-[INFO ] 2023-10-29 18:29:07.003 [main] MyStore - My Account Page is open
-[INFO ] 2023-10-29 18:29:08.871 [main] MyStore - Email and Pass entered and click on sign in
-[INFO ] 2023-10-29 18:29:10.788 [main] MyStore - Product Search page open
-[INFO ] 2023-10-29 18:29:10.788 [main] MyStore - In Search box added search key and clicked search button
-[INFO ] 2023-10-29 18:29:10.858 [main] MyStore - In result page got name of the product which is displayed 
-[INFO ] 2023-10-29 18:29:10.859 [main] MyStore - Verifying that correct Product is displaying after search
-[INFO ] 2023-10-29 18:29:10.862 [main] MyStore - Search Product testcase - Passed
-[INFO ] 2023-10-29 18:29:12.239 [main] MyStore - ***************TestCase Search Product ends*****************
+  <testcase name="VerifySearchProduct" classname="com.store.Testcases.TC_ProductPageTest" time="6.823">
+    <system-out><![CDATA[[INFO ] 2023-10-30 10:36:36.568 [main] MyStore - Browser Closed
+[INFO ] 2023-10-30 10:36:38.796 [main] MyStore - Browser Launched.........
+[INFO ] 2023-10-30 10:36:48.391 [main] MyStore - Webpage Opened..........
+[INFO ] 2023-10-30 10:36:48.393 [main] MyStore - ***************TestCase Search Product started*****************
+[INFO ] 2023-10-30 10:36:50.406 [main] MyStore - Clicked on Sign in link
+[INFO ] 2023-10-30 10:36:50.406 [main] MyStore - My Account Page is open
+[INFO ] 2023-10-30 10:36:51.996 [main] MyStore - Email and Pass entered and click on sign in
+[INFO ] 2023-10-30 10:36:52.769 [main] MyStore - Product Search page open
+[INFO ] 2023-10-30 10:36:52.770 [main] MyStore - In Search box added search key and clicked search button
+[INFO ] 2023-10-30 10:36:54.228 [main] MyStore - In result page got name of the product which is displayed 
+[INFO ] 2023-10-30 10:36:54.229 [main] MyStore - Verifying that correct Product is displaying after search
+[INFO ] 2023-10-30 10:36:54.229 [main] MyStore - Search Product testcase - Passed
+[INFO ] 2023-10-30 10:36:55.204 [main] MyStore - ***************TestCase Search Product ends*****************
 ]]></system-out>
-    <system-err><![CDATA[Oct 29, 2023 6:28:54 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Oct 30, 2023 10:36:36 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -122,32 +122,32 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Oct 29, 2023 6:28:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 10:36:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 118, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="VerifyBuyProduct" classname="com.store.Testcases.TC_ProductPageTest" time="28.231">
-    <system-out><![CDATA[[INFO ] 2023-10-29 18:29:12.249 [main] MyStore - ***************TestCase Buy Product started*****************
-[INFO ] 2023-10-29 18:29:13.568 [main] MyStore - Clicked on Sign in link
-[INFO ] 2023-10-29 18:29:13.569 [main] MyStore - My Account Page is open
-[INFO ] 2023-10-29 18:29:14.852 [main] MyStore - Email and Pass entered and click on sign in
-[INFO ] 2023-10-29 18:29:14.973 [main] MyStore - T-shirt entered in search box
-[INFO ] 2023-10-29 18:29:15.857 [main] MyStore - clicked on search button
-[INFO ] 2023-10-29 18:29:18.571 [main] MyStore - Clicked on more button
-[INFO ] 2023-10-29 18:29:22.828 [main] MyStore - quantity 2 entered
-[INFO ] 2023-10-29 18:29:23.064 [main] MyStore - size M entered
-[INFO ] 2023-10-29 18:29:23.169 [main] MyStore - Clicked on add to cart
-[INFO ] 2023-10-29 18:29:25.648 [main] MyStore - Clicked on proceed to checkout on product page
-[INFO ] 2023-10-29 18:29:27.165 [main] MyStore - Clicked on proceed to checkout on order summary page
-[INFO ] 2023-10-29 18:29:28.259 [main] MyStore - Clicked on proceed to checkout on order address page
-[INFO ] 2023-10-29 18:29:28.375 [main] MyStore - selected term of service check box
-[INFO ] 2023-10-29 18:29:29.413 [main] MyStore - Clicked on proceed to checkout on order shipping page
-[INFO ] 2023-10-29 18:29:29.430 [main] MyStore - order payment page open
-[INFO ] 2023-10-29 18:29:30.140 [main] MyStore - Clicked on pay by cheque
-[INFO ] 2023-10-29 18:29:36.923 [main] MyStore - Clicked on confirmed order
-[INFO ] 2023-10-29 18:29:36.994 [main] MyStore - Checked confirm order message
-[INFO ] 2023-10-29 18:29:36.995 [main] MyStore - VerifyBuyProduct - Passed
-[INFO ] 2023-10-29 18:29:40.497 [main] MyStore - ***************TestCase BuyProduct ends*****************
+  <testcase name="VerifyBuyProduct" classname="com.store.Testcases.TC_ProductPageTest" time="37.583">
+    <system-out><![CDATA[[INFO ] 2023-10-30 10:36:55.219 [main] MyStore - ***************TestCase Buy Product started*****************
+[INFO ] 2023-10-30 10:36:56.178 [main] MyStore - Clicked on Sign in link
+[INFO ] 2023-10-30 10:36:56.180 [main] MyStore - My Account Page is open
+[INFO ] 2023-10-30 10:36:57.456 [main] MyStore - Email and Pass entered and click on sign in
+[INFO ] 2023-10-30 10:36:57.653 [main] MyStore - T-shirt entered in search box
+[INFO ] 2023-10-30 10:36:58.543 [main] MyStore - clicked on search button
+[INFO ] 2023-10-30 10:37:01.158 [main] MyStore - Clicked on more button
+[INFO ] 2023-10-30 10:37:05.371 [main] MyStore - quantity 2 entered
+[INFO ] 2023-10-30 10:37:05.615 [main] MyStore - size M entered
+[INFO ] 2023-10-30 10:37:05.721 [main] MyStore - Clicked on add to cart
+[INFO ] 2023-10-30 10:37:07.627 [main] MyStore - Clicked on proceed to checkout on product page
+[INFO ] 2023-10-30 10:37:09.095 [main] MyStore - Clicked on proceed to checkout on order summary page
+[INFO ] 2023-10-30 10:37:09.637 [main] MyStore - Clicked on proceed to checkout on order address page
+[INFO ] 2023-10-30 10:37:10.159 [main] MyStore - selected term of service check box
+[INFO ] 2023-10-30 10:37:11.343 [main] MyStore - Clicked on proceed to checkout on order shipping page
+[INFO ] 2023-10-30 10:37:11.377 [main] MyStore - order payment page open
+[INFO ] 2023-10-30 10:37:12.039 [main] MyStore - Clicked on pay by cheque
+[INFO ] 2023-10-30 10:37:22.966 [main] MyStore - Clicked on confirmed order
+[INFO ] 2023-10-30 10:37:23.038 [main] MyStore - Checked confirm order message
+[INFO ] 2023-10-30 10:37:23.039 [main] MyStore - VerifyBuyProduct - Passed
+[INFO ] 2023-10-30 10:37:32.790 [main] MyStore - ***************TestCase BuyProduct ends*****************
 ]]></system-out>
   </testcase>
 </testsuite>

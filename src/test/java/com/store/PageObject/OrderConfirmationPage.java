@@ -8,19 +8,19 @@ import org.openqa.selenium.support.PageFactory;
 public class OrderConfirmationPage {
 	WebDriver driver;
 
-	//2. Create constructor
+
 	public OrderConfirmationPage(WebDriver d)
 	{
 		this.driver = d;
-		PageFactory.initElements(driver, this);//driver that will be used to lookup the web element
+		PageFactory.initElements(driver, this);
 
 	}
 
-	@FindBy(xpath = "/html/body/div[1]/div[2]/div/div[3]/div/form/p/button/span")
+	@FindBy(xpath = "//button[@class='button btn btn-default button-medium']")
 	WebElement confirmOrder;
 	
 	
-	@FindBy(xpath="//div[@id='center_column']/p[@class='alert alert-success']")
+	@FindBy(xpath="//p[@class='alert alert-success']")
 	WebElement sucessAlert;
 
 	@FindBy(linkText = "Sign out")
@@ -33,7 +33,7 @@ public class OrderConfirmationPage {
 	
 	public void cickOnConfirmOrder()
 	{
-		confirmOrder.click();
+		confirmOrder.click();;
 	}
 	
 	public String getOrderSucessMessage()

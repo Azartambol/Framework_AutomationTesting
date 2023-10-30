@@ -9,11 +9,11 @@ public class OrderShippingPage {
 
 	WebDriver driver;
 
-	//2. Create constructor
+
 	public OrderShippingPage(WebDriver d)
 	{
 		this.driver = d;
-		PageFactory.initElements(driver, this);//driver that will be used to lookup the web element
+		PageFactory.initElements(driver, this);
 
 	}
 

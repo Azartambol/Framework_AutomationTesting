@@ -2,42 +2,42 @@
 <testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-29T18:28:26 IST" name="Suite" finished-at="2023-10-29T18:29:41 IST" duration-ms="74982">
+  <suite started-at="2023-10-30T10:36:11 IST" name="Suite" finished-at="2023-10-30T10:37:33 IST" duration-ms="81882">
     <groups>
     </groups>
-    <test started-at="2023-10-29T18:28:26 IST" name="Test" finished-at="2023-10-29T18:29:41 IST" duration-ms="74982">
+    <test started-at="2023-10-30T10:36:11 IST" name="Test" finished-at="2023-10-30T10:37:33 IST" duration-ms="81882">
       <class name="com.store.Testcases.TC_MyAccountPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.Testcases.TC_MyAccountPageTest@47e2e487]" started-at="2023-10-29T18:28:26 IST" name="setup" finished-at="2023-10-29T18:28:44 IST" duration-ms="18004" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.Testcases.TC_MyAccountPageTest@47e2e487]" started-at="2023-10-30T10:36:11 IST" name="setup" finished-at="2023-10-30T10:36:25 IST" duration-ms="13428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin()[pri:0, instance:com.store.Testcases.TC_MyAccountPageTest@47e2e487]" started-at="2023-10-29T18:28:44 IST" name="verifyLogin" finished-at="2023-10-29T18:28:49 IST" duration-ms="5208" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:com.store.Testcases.TC_MyAccountPageTest@47e2e487]" started-at="2023-10-30T10:36:25 IST" name="verifyLogin" finished-at="2023-10-30T10:36:32 IST" duration-ms="7392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method signature="VerifySignOut()[pri:1, instance:com.store.Testcases.TC_MyAccountPageTest@47e2e487]" started-at="2023-10-29T18:28:49 IST" name="VerifySignOut" finished-at="2023-10-29T18:28:54 IST" duration-ms="4493" status="PASS">
+        <test-method signature="VerifySignOut()[pri:1, instance:com.store.Testcases.TC_MyAccountPageTest@47e2e487]" started-at="2023-10-30T10:36:32 IST" name="VerifySignOut" finished-at="2023-10-30T10:36:36 IST" duration-ms="3409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySignOut -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.store.Testcases.TC_MyAccountPageTest@47e2e487]" started-at="2023-10-29T18:28:54 IST" name="teardown" finished-at="2023-10-29T18:28:54 IST" duration-ms="658" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.store.Testcases.TC_MyAccountPageTest@47e2e487]" started-at="2023-10-30T10:36:36 IST" name="teardown" finished-at="2023-10-30T10:36:36 IST" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.store.Testcases.TC_MyAccountPageTest -->
       <class name="com.store.Testcases.TC_ProductPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.Testcases.TC_ProductPageTest@1b11171f]" started-at="2023-10-29T18:28:54 IST" name="setup" finished-at="2023-10-29T18:29:05 IST" duration-ms="10597" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.Testcases.TC_ProductPageTest@1b11171f]" started-at="2023-10-30T10:36:36 IST" name="setup" finished-at="2023-10-30T10:36:48 IST" duration-ms="11822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifySearchProduct()[pri:0, instance:com.store.Testcases.TC_ProductPageTest@1b11171f]" started-at="2023-10-29T18:29:05 IST" name="VerifySearchProduct" finished-at="2023-10-29T18:29:12 IST" duration-ms="6731" status="PASS">
+        <test-method signature="VerifySearchProduct()[pri:0, instance:com.store.Testcases.TC_ProductPageTest@1b11171f]" started-at="2023-10-30T10:36:48 IST" name="VerifySearchProduct" finished-at="2023-10-30T10:36:55 IST" duration-ms="6812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchProduct -->
-        <test-method signature="VerifyBuyProduct()[pri:1, instance:com.store.Testcases.TC_ProductPageTest@1b11171f]" started-at="2023-10-29T18:29:12 IST" name="VerifyBuyProduct" finished-at="2023-10-29T18:29:40 IST" duration-ms="28249" status="PASS">
+        <test-method signature="VerifyBuyProduct()[pri:1, instance:com.store.Testcases.TC_ProductPageTest@1b11171f]" started-at="2023-10-30T10:36:55 IST" name="VerifyBuyProduct" finished-at="2023-10-30T10:37:32 IST" duration-ms="37576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBuyProduct -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.store.Testcases.TC_ProductPageTest@1b11171f]" started-at="2023-10-29T18:29:40 IST" name="teardown" finished-at="2023-10-29T18:29:41 IST" duration-ms="523" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.store.Testcases.TC_ProductPageTest@1b11171f]" started-at="2023-10-30T10:37:32 IST" name="teardown" finished-at="2023-10-30T10:37:33 IST" duration-ms="474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

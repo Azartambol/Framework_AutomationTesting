@@ -21,7 +21,7 @@ public class Productpage {
 	@FindBy(id="group_1")
 	WebElement size;
 
-	//button[@name='Submit']
+
 	@FindBy(name="Submit")
 	WebElement addToCart;
 	
@@ -35,7 +35,7 @@ public class Productpage {
 		quantityWanted.sendKeys(qty);
 	}
 
-	//create actions methods for web elements
+	
 	public void setSize(String sizeType)
 	{
 		Select oSelect=new Select(size);

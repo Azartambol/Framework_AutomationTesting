@@ -8,16 +8,16 @@ import org.openqa.selenium.support.PageFactory;
 public class OrderPaymentPage {
 	WebDriver driver;
 
-	//2. Create constructor
+	
 	public OrderPaymentPage(WebDriver d)
 	{
 		driver = d;
-		PageFactory.initElements(driver, this);//driver that will be used to lookup the web element
+		PageFactory.initElements(driver, this);
 
 	}
 
 
-	@FindBy(xpath = "/html/body/div[1]/div[2]/div/div[3]/div/div/div[3]/div[2]/div/p/a")
+	@FindBy(xpath = "//a[@title='Pay by check.']")
 	WebElement payByCheque;
 	
 	

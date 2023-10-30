@@ -16,16 +16,16 @@ WebDriver driver;
 		
 	}
 	
-	@FindBy(xpath="/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1]")
+	@FindBy(xpath="/html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a")
 	WebElement searchResultProduct ;
 	
 	@FindBy(linkText = "Sign out")
 	WebElement signOut;
 	
-	@FindBy(xpath="//a[@title='Faded Short Sleeve T-shirts'][1]")
+	@FindBy(xpath="(//a[@title='Faded Short Sleeve T-shirts'])[1]")
 	WebElement tshirtProduct;
 	
-	@FindBy(xpath="//a[@title=\"View\"]")
+	@FindBy(xpath="//a[@title='View']")
 	WebElement more;
 	
 	public String getSearchResultProductName()

@@ -4,8 +4,9 @@
 <listeners><listener class-name="com.strore.Utilities.Itestlistnerimp"></listener></listeners>
   <test thread-count="5" name="Test">
     <classes>
-       <class name="com.store.Testcases.TC_MyAccountPageTest"/>
+      <class name="com.store.Testcases.TC_MyAccountPageTest"/>
       <class name="com.store.Testcases.TC_ProductPageTest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
