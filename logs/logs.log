@@ -1,53 +1,53 @@
-[INFO ] 2023-10-30 10:36:19.058 [main] MyStore - Browser Launched.........
-[INFO ] 2023-10-30 10:36:25.280 [main] MyStore - Webpage Opened..........
-[INFO ] 2023-10-30 10:36:25.308 [main] MyStore - ***************TestCase VerifyLogin Started*****************
-[INFO ] 2023-10-30 10:36:26.775 [main] MyStore - Clicked on Sign in link
-[INFO ] 2023-10-30 10:36:26.776 [main] MyStore - My Account Page is open
-[INFO ] 2023-10-30 10:36:31.072 [main] MyStore - Email and Pass entered and click on sign in
-[INFO ] 2023-10-30 10:36:31.155 [main] MyStore - Checking correct username is displaying or not
-[INFO ] 2023-10-30 10:36:32.685 [main] MyStore - Testcase VerifyLogin passed
-[INFO ] 2023-10-30 10:36:32.694 [main] MyStore - ***************TestCase VerifyLogin Ends*****************
-[INFO ] 2023-10-30 10:36:32.736 [main] MyStore - ***************TestCase Verify Sign out starts*****************
-[INFO ] 2023-10-30 10:36:33.647 [main] MyStore - Clicked on sign in link
-[INFO ] 2023-10-30 10:36:33.810 [main] MyStore - Entered email address
-[INFO ] 2023-10-30 10:36:33.967 [main] MyStore - Entered password
-[INFO ] 2023-10-30 10:36:34.940 [main] MyStore - Clicked on sign in link..
-[INFO ] 2023-10-30 10:36:36.122 [main] MyStore - Clicked on sign out link..
-[INFO ] 2023-10-30 10:36:36.144 [main] MyStore - user signed out from application
-[INFO ] 2023-10-30 10:36:36.144 [main] MyStore - Testcase VerifySignOut passed
-[INFO ] 2023-10-30 10:36:36.144 [main] MyStore - ***************TestCase Verify Sign out ends*****************
-[INFO ] 2023-10-30 10:36:36.568 [main] MyStore - Browser Closed
-[INFO ] 2023-10-30 10:36:38.796 [main] MyStore - Browser Launched.........
-[INFO ] 2023-10-30 10:36:48.391 [main] MyStore - Webpage Opened..........
-[INFO ] 2023-10-30 10:36:48.393 [main] MyStore - ***************TestCase Search Product started*****************
-[INFO ] 2023-10-30 10:36:50.406 [main] MyStore - Clicked on Sign in link
-[INFO ] 2023-10-30 10:36:50.406 [main] MyStore - My Account Page is open
-[INFO ] 2023-10-30 10:36:51.996 [main] MyStore - Email and Pass entered and click on sign in
-[INFO ] 2023-10-30 10:36:52.769 [main] MyStore - Product Search page open
-[INFO ] 2023-10-30 10:36:52.770 [main] MyStore - In Search box added search key and clicked search button
-[INFO ] 2023-10-30 10:36:54.228 [main] MyStore - In result page got name of the product which is displayed 
-[INFO ] 2023-10-30 10:36:54.229 [main] MyStore - Verifying that correct Product is displaying after search
-[INFO ] 2023-10-30 10:36:54.229 [main] MyStore - Search Product testcase - Passed
-[INFO ] 2023-10-30 10:36:55.204 [main] MyStore - ***************TestCase Search Product ends*****************
-[INFO ] 2023-10-30 10:36:55.219 [main] MyStore - ***************TestCase Buy Product started*****************
-[INFO ] 2023-10-30 10:36:56.178 [main] MyStore - Clicked on Sign in link
-[INFO ] 2023-10-30 10:36:56.180 [main] MyStore - My Account Page is open
-[INFO ] 2023-10-30 10:36:57.456 [main] MyStore - Email and Pass entered and click on sign in
-[INFO ] 2023-10-30 10:36:57.653 [main] MyStore - T-shirt entered in search box
-[INFO ] 2023-10-30 10:36:58.543 [main] MyStore - clicked on search button
-[INFO ] 2023-10-30 10:37:01.158 [main] MyStore - Clicked on more button
-[INFO ] 2023-10-30 10:37:05.371 [main] MyStore - quantity 2 entered
-[INFO ] 2023-10-30 10:37:05.615 [main] MyStore - size M entered
-[INFO ] 2023-10-30 10:37:05.721 [main] MyStore - Clicked on add to cart
-[INFO ] 2023-10-30 10:37:07.627 [main] MyStore - Clicked on proceed to checkout on product page
-[INFO ] 2023-10-30 10:37:09.095 [main] MyStore - Clicked on proceed to checkout on order summary page
-[INFO ] 2023-10-30 10:37:09.637 [main] MyStore - Clicked on proceed to checkout on order address page
-[INFO ] 2023-10-30 10:37:10.159 [main] MyStore - selected term of service check box
-[INFO ] 2023-10-30 10:37:11.343 [main] MyStore - Clicked on proceed to checkout on order shipping page
-[INFO ] 2023-10-30 10:37:11.377 [main] MyStore - order payment page open
-[INFO ] 2023-10-30 10:37:12.039 [main] MyStore - Clicked on pay by cheque
-[INFO ] 2023-10-30 10:37:22.966 [main] MyStore - Clicked on confirmed order
-[INFO ] 2023-10-30 10:37:23.038 [main] MyStore - Checked confirm order message
-[INFO ] 2023-10-30 10:37:23.039 [main] MyStore - VerifyBuyProduct - Passed
-[INFO ] 2023-10-30 10:37:32.790 [main] MyStore - ***************TestCase BuyProduct ends*****************
-[INFO ] 2023-10-30 10:37:33.269 [main] MyStore - Browser Closed
+[INFO ] 2023-11-11 22:48:37.783 [main] MyStore - Browser Launched.........
+[INFO ] 2023-11-11 22:48:48.387 [main] MyStore - Webpage Opened..........
+[INFO ] 2023-11-11 22:48:48.431 [main] MyStore - ***************TestCase VerifyLogin Started*****************
+[INFO ] 2023-11-11 22:48:55.392 [main] MyStore - Clicked on Sign in link
+[INFO ] 2023-11-11 22:48:55.392 [main] MyStore - My Account Page is open
+[INFO ] 2023-11-11 22:48:57.520 [main] MyStore - Email and Pass entered and click on sign in
+[INFO ] 2023-11-11 22:48:57.613 [main] MyStore - Checking correct username is displaying or not
+[INFO ] 2023-11-11 22:48:58.794 [main] MyStore - Testcase VerifyLogin passed
+[INFO ] 2023-11-11 22:48:58.806 [main] MyStore - ***************TestCase VerifyLogin Ends*****************
+[INFO ] 2023-11-11 22:48:58.843 [main] MyStore - ***************TestCase Verify Sign out starts*****************
+[INFO ] 2023-11-11 22:49:00.220 [main] MyStore - Clicked on sign in link
+[INFO ] 2023-11-11 22:49:00.443 [main] MyStore - Entered email address
+[INFO ] 2023-11-11 22:49:00.578 [main] MyStore - Entered password
+[INFO ] 2023-11-11 22:49:01.809 [main] MyStore - Clicked on sign in link..
+[INFO ] 2023-11-11 22:49:03.672 [main] MyStore - Clicked on sign out link..
+[INFO ] 2023-11-11 22:49:03.701 [main] MyStore - user signed out from application
+[INFO ] 2023-11-11 22:49:03.702 [main] MyStore - Testcase VerifySignOut passed
+[INFO ] 2023-11-11 22:49:03.702 [main] MyStore - ***************TestCase Verify Sign out ends*****************
+[INFO ] 2023-11-11 22:49:04.147 [main] MyStore - Browser Closed
+[INFO ] 2023-11-11 22:49:06.058 [main] MyStore - Browser Launched.........
+[INFO ] 2023-11-11 22:49:13.365 [main] MyStore - Webpage Opened..........
+[INFO ] 2023-11-11 22:49:13.377 [main] MyStore - ***************TestCase Search Product started*****************
+[INFO ] 2023-11-11 22:49:16.148 [main] MyStore - Clicked on Sign in link
+[INFO ] 2023-11-11 22:49:16.150 [main] MyStore - My Account Page is open
+[INFO ] 2023-11-11 22:49:18.666 [main] MyStore - Email and Pass entered and click on sign in
+[INFO ] 2023-11-11 22:49:19.439 [main] MyStore - Product Search page open
+[INFO ] 2023-11-11 22:49:19.439 [main] MyStore - In Search box added search key and clicked search button
+[INFO ] 2023-11-11 22:49:20.283 [main] MyStore - In result page got name of the product which is displayed 
+[INFO ] 2023-11-11 22:49:20.283 [main] MyStore - Verifying that correct Product is displaying after search
+[INFO ] 2023-11-11 22:49:20.283 [main] MyStore - Search Product testcase - Passed
+[INFO ] 2023-11-11 22:49:21.375 [main] MyStore - ***************TestCase Search Product ends*****************
+[INFO ] 2023-11-11 22:49:21.389 [main] MyStore - ***************TestCase Buy Product started*****************
+[INFO ] 2023-11-11 22:49:22.255 [main] MyStore - Clicked on Sign in link
+[INFO ] 2023-11-11 22:49:22.255 [main] MyStore - My Account Page is open
+[INFO ] 2023-11-11 22:49:24.215 [main] MyStore - Email and Pass entered and click on sign in
+[INFO ] 2023-11-11 22:49:24.343 [main] MyStore - T-shirt entered in search box
+[INFO ] 2023-11-11 22:49:25.183 [main] MyStore - clicked on search button
+[INFO ] 2023-11-11 22:49:27.068 [main] MyStore - Clicked on more button
+[INFO ] 2023-11-11 22:49:31.265 [main] MyStore - quantity 2 entered
+[INFO ] 2023-11-11 22:49:31.539 [main] MyStore - size M entered
+[INFO ] 2023-11-11 22:49:31.688 [main] MyStore - Clicked on add to cart
+[INFO ] 2023-11-11 22:49:34.486 [main] MyStore - Clicked on proceed to checkout on product page
+[INFO ] 2023-11-11 22:49:35.639 [main] MyStore - Clicked on proceed to checkout on order summary page
+[INFO ] 2023-11-11 22:49:36.183 [main] MyStore - Clicked on proceed to checkout on order address page
+[INFO ] 2023-11-11 22:49:36.809 [main] MyStore - selected term of service check box
+[INFO ] 2023-11-11 22:49:38.227 [main] MyStore - Clicked on proceed to checkout on order shipping page
+[INFO ] 2023-11-11 22:49:38.232 [main] MyStore - order payment page open
+[INFO ] 2023-11-11 22:49:38.944 [main] MyStore - Clicked on pay by cheque
+[INFO ] 2023-11-11 22:49:40.310 [main] MyStore - Clicked on confirmed order
+[INFO ] 2023-11-11 22:49:40.385 [main] MyStore - Checked confirm order message
+[INFO ] 2023-11-11 22:49:40.387 [main] MyStore - VerifyBuyProduct - Passed
+[INFO ] 2023-11-11 22:49:42.009 [main] MyStore - ***************TestCase BuyProduct ends*****************
+[INFO ] 2023-11-11 22:49:42.523 [main] MyStore - Browser Closed
